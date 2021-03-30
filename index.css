@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.main{
+    width: 80%;
+    height: 800px;
+    margin: 3% auto;
+    background: rgb(114, 19, 192);
+}
+
+.navholder{
+    width: 100%;
+    height: 80px;
+    background: rgb(228, 206, 243);
+}
+
+.logo{
+    width: 10%;
+    height: 80px;
+    float: left;
+}
+
+.navlist{
+    width: 90%;
+    height: 80px;
+    float: left;
+}
+
+.logo img{
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+li.stynav{
+    font-size: 1.19rem;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4f2074;
+    text-transform: uppercase;
+}
+
+.hero-section{
+    width: 100%;
+    height: 500px;
+    max-height: 550px;
+    overflow: hidden;
+    background-color: #000;
+    background-blend-mode: overlay;
+    opacity: 0.5;
+}
+
+.hero-wrap{
+    width: 60%;
+    height: auto;
+    padding: 5%;
+    margin: auto;
+}
+
+.hero-text{
+    font-size: 4rem;
+    font-family: inherit;
+    color: #fff;
+    font-weight: 400;
+}
+
+.hero-text-small{
+    font-size: 2rem;
+    font-family: inherit;
+    color: #fff;
+    font-weight: 400;
+}
+
+.hero-cta{
+    font-size: 2rem;
+    font-family: inherit;
+    color: #fff;
+    font-weight: 500;
+    background:rgb(114, 19, 192);
+}
